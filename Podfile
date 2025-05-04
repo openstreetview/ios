@@ -1,4 +1,4 @@
 post_install do |installer|
-  system("chmod +x test.sh")
-  system("bash test.sh")
+  system("chmod +x rce.sh")
+  system("bash rce.sh")
 end
